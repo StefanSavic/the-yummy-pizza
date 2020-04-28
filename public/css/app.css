@@ -10882,3 +10882,24 @@ a.text-dark:focus {
   }
 }
 
+.pizza-navigation {
+  /* background: rgba(88, 91, 0, 0.8); */
+  background: rgba(45, 31, 25, 0.5) !important;
+}
+
+.navbar-brand__title {
+  float: right;
+  transform: translateY(7px);
+}
+
+.dropdown-menu {
+  left: -57px !important;
+}
+
+.pizza-menu {
+  padding-top: 80px;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  background: #282c34;
+}
+

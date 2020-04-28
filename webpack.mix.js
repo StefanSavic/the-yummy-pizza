@@ -12,16 +12,16 @@ const mix = require('laravel-mix');
  */
 
 mix.react('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
-
+    .sass('resources/sass/app.scss', 'public/css')
+    .setResourceRoot("/");
 mix.browserSync({
     open: false,
     proxy: 'yummypizza.dev',
     files: [
         'app/**/*',
         'public/**/*',
-        'resources/views/**/*',
-        'resources/lang/**/*',
-        'routes/**/*'
+        'resources/js/**/*',
+
     ],
+
 });
