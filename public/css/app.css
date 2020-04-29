@@ -10900,6 +10900,10 @@ a.text-dark:focus {
   padding-top: 80px;
   min-height: 100vh;
   padding-bottom: 50px;
-  background: #282c34;
+  background-image: url("/img/wooden-surface2.jpeg");
+}
+
+.text-menu {
+  color: white;
 }
 
