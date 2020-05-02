@@ -18,6 +18,24 @@
     transform: translateY(7px);
 }
 
+
+.basket-items-num {
+    background: navy;
+    border-radius: 109%;
+    padding: 2px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: absolute;
+    top: 7px;
+    right: 23px;
+}
+
 // .main-content {
 //     min-height: 100vh;
 //     // background-image: url('./img/pizza.jpg');

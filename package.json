@@ -27,6 +27,7 @@
         "sass-loader": "^8.0.0"
     },
     "dependencies": {
-        "react-bootstrap": "^1.0.1"
+        "react-bootstrap": "^1.0.1",
+        "uuid": "^8.0.0"
     }
 }
